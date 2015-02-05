@@ -491,4 +491,8 @@ public class PhoneFactory {
         }
         pw.decreaseIndent();
     }
+
+    public static SubscriptionInfoUpdater getSubscriptionInfoUpdater() {
+        return sSubInfoRecordUpdater;
+    }
 }
